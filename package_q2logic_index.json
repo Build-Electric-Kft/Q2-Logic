@@ -1,0 +1,30 @@
+{
+  "packages": [
+    {
+      "name": "q2logic",
+      "maintainer": "Q²-Logic",
+      "websiteURL": "https://github.com/Kukuruzsnyak-Attila/Q2-Logic",
+      "platforms": [
+        {
+          "name": "Q²-Logic ESP32 Boards",
+          "architecture": "esp32",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/Kukuruzsnyak-Attila/Q2-Logic"
+          },
+          "url": "https://github.com/Kukuruzsnyak-Attila/Q2-Logic/releases/download/1.0.0/Q2-Logic-1.0.0.zip",
+          "archiveFileName": "Q2-Logic-1.0.0.zip",
+          "checksum": "SHA-256:2314c31aefd315565d0059c2cd45304f3d57e40c7aad8762bbc77ddf66df12b8",
+          "size": "4724",
+          "boards": [
+            {
+              "name": "Q²-Logic Mini"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
