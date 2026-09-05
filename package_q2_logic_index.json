@@ -1,0 +1,32 @@
+{
+  "packages": [
+    {
+      "name": "q2_logic",
+      "maintainer": "Build Electric Kft.",
+      "websiteURL": "https://github.com/Build-Electric-Kft/Q2-Logic",
+      "email": "",
+      "platforms": [
+        {
+          "name": "Q²-Logic Boards",
+          "architecture": "esp32",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/Build-Electric-Kft/Q2-Logic"
+          },
+          "url": "https://github.com/Build-Electric-Kft/Q2-Logic/releases/download/1.0.0/Q2-Logic-1.0.0.zip",
+          "archiveFileName": "Q2-Logic-1.0.0.zip",
+          "checksum": "SHA-256:6dd935a7e33589244f073cfbc40b947087e67d6f6f89e1d731bf509e1a5ea881",
+          "size": "5999",
+          "boards": [
+            {
+              "name": "Q²-Logic Mini"
+            }
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
