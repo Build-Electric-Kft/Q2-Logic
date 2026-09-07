@@ -32,6 +32,7 @@ Model and Library Documentation
 > -Reverse voltage protected\
 > -DC/DC converter IC ESD rating: 2 kV HBM (component level)\
 > **Input current:** 800mA\
+> **5V output maximum current: 1A**\
 > **6 isolated digital inputs:**\
 > -Input voltage between COM and each input: 10–24 VDC\
 > **4 relay output:**\
@@ -49,16 +50,18 @@ Model and Library Documentation
 > -Built-in message arbitration and error detection\
 > -Maximum node count depends on the transceivers and network configuration\
 > -On-board 120 Ω termination resistor\
-> -Dedicated PESD1CAN TVS protection against ESD and voltage transients, 23kV IEC 61000-4-2\
+> -Dedicated TVS protection against ESD and voltage transients, 23kV IEC 61000-4-2\
 > **RS485:**\
 > -Master/slave operation depends on the communication protocol implemented in firmware\
 > -Differential communication interface supporting multiple devices on a shared bus\
 > -Maximum node count depends on transceiver loading and protocol limitations\
 > -On-board 120 Ω termination resistor\
-> -Dedicated PESD1CAN TVS protection against ESD and voltage transients, 23kV IEC 61000-4-2\
-
-
-
+> -Dedicated TVS protection against ESD and voltage transients, 23kV IEC 61000-4-2\
+> **I²C:**
+> -5V logic level\
+> -Supporting Standard-mode (100 kHz) and Fast-mode (400 kHz)\
+> -On-board EEPROM at address `0x00`\
+> -ESD rating: 5 kV HBM (component level)
 
 
 
