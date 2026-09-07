@@ -126,6 +126,13 @@ Q²-Logic (Q2-Logic) is a family of ESP32-based programmable controllers develop
 | GPIO17 | RS485_RX | RS485 receive | | GPIO48 | Q3_pin | Output 3 |
 
 ### <ins>RJ45 - CAN/RS485 pinout</ins>
+<details>
+<summary><strong><ins>RJ45 - CAN/RS485 pinout</ins></strong> — Click</summary>
+
+![Q²-Logic](images/RJ45-CAN-RS485-pinout.svg)
+  
+</details>
+
 | **Pin** | **Signal** | | **Pin** | **Signal** |
 | :---: | --- | --- | :---: | --- |
 | 1 | RS485_B | | 5 | CAN_L |
