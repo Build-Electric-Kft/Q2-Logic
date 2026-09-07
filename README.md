@@ -1,7 +1,7 @@
 # Q²-Logic
-Könyvtár és modell dokumentáció
+Model and Library Documentation
 
-## Modellek:
+## Modells:
 | | <ins>Q²-Logic</ins> | <ins>Q²-Logic Mini</ins> |
 | :--- | :---: | :---: |
 | **Supply voltage** | *12-24VDC* | *12-24VDC* |
@@ -18,6 +18,25 @@ Könyvtár és modell dokumentáció
 > Do not exceed the maximum rated current, as this may damage the controller!
 
 ---
+
+<details>
+<summary><strong>Q²-Logic</strong>
+- Click for a detailed description.</summary>
+
+</details>
+
+---
+
+<details>
+<summary><strong>Q²-Logic Mini</strong>
+- Click for a detailed description.</summary>
+
+</details>
+
+---
+
+## Code
+
 
 ### <ins>Q²-Logic Mini</ins>
 - **6 bemenet**
