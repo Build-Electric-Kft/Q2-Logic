@@ -1,3 +1,70 @@
+# Q²-Logic
+Könyvtár és modell dokumentáció
+
+## Modellek:
+| | <ins>Q²-Logic</ins> | <ins>Q²-Logic Mini</ins> |
+| :--- | :---: | :---: |
+| **Supply voltage** | *12-24VDC* | *12-24VDC* |
+| **Input** | *6* | *6* | 
+| **Relay output** | *4* | *2* |
+| **MOSFET output** | *4* | *4* |
+| **Interface** | *Wifi, CAN, RS485, I²C* | *Wifi* |
+> [!NOTE]
+> Relay: *5A/ch | 250VAC*\
+> MOSFET: *5A/ch, or max:15A (all chanel) | 30VDC*
+>> Maximum temperature at full load: 70 °C
+
+> [!WARNING]
+> Do not exceed the maximum rated current, as this may damage the controller!
+
+---
+
+### <ins>Q²-Logic Mini</ins>
+- **6 bemenet**
+- **6 kimenet**
+  - *2 relé*
+  - *4 MOSFET*
+- **Wifi**
+<details>
+<summary><strong>Részletes leírás</strong></summary>
+
+### Q²-Logic Mini
+
+- **Mikrovezérlő:** ESP32-C3
+- **Bemenetek:** 6
+- **Kimenetek:** 2 relé és 4 MOSFET
+- **Kommunikáció:** Wi-Fi
+
+| Kimenet | Típus |
+| --- | --- |
+| Q1–Q2 | Relé |
+| Q3–Q6 | MOSFET |
+
+</details>
+
+### <ins>Q²-Logic</ins>
+- **6 bemenet**
+- **8 kimenet**
+  - *4 relé*
+  - *4 MOSFET*
+- **Wifi, CAN busz, RS485, I²C**
+<details>
+<summary><strong>Részletes leírás</strong></summary>
+
+### c
+
+- **Mikrovezérlő:** ESP32-C3
+- **Bemenetek:** 6
+- **Kimenetek:** 2 relé és 4 MOSFET
+- **Kommunikáció:** Wi-Fi
+
+| Kimenet | Típus |
+| --- | --- |
+| Q1–Q2 | Relé |
+| Q3–Q6 | MOSFET |
+
+</details>
+
 # Q²-Logic – GitHub Markdown formázási mintatár
 
 Ez egy bemutatófájl: a példaszövegek formázást szemléltetnek, nem új termékspecifikációt vagy fejlesztési vállalást jelentenek. A GitHubon a **Preview** a megjelenést, a **Code** vagy **Raw** a másolható forrást mutatja.
