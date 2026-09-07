@@ -23,6 +23,13 @@ Model and Library Documentation
 <summary><strong>Q²-Logic</strong>
 - Click for a detailed description.</summary>
 
+![Q²-Logic Mini](images/3D_Q2-Logic_PCB.png)
+
+
+
+
+
+
 </details>
 
 ---
