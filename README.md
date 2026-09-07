@@ -32,26 +32,30 @@ Model and Library Documentation
 > -Reverse voltage protected\
 > -DC/DC converter IC ESD rating: 2 kV HBM (component level)\
 > **Input current:** 800mA\
-> **6 isolated digital inputs**\
+> **6 isolated digital inputs:**\
 > -Input voltage between COM and each input: 10–24 VDC\
-> **4 relay output**\
+> **4 relay output:**\
 > -Maximum load current: 5A 250VAC | 1A 30VDC\
-> **4 N-type MOSFET output**\
+> **4 N-type MOSFET output:**\
 > -Maximum load current: 5A/CH or 15A(all chanel)\
 > -Maximum voltage: 30VDC\
 > -PWM frequency: 1,2kHz\
 > -Maximum temperature at full load: 70 °C\
-> **Ethernet**\
+> **Ethernet:**\
 > -W5500 chip\
 > -10/100 Mbps Ethernet with auto-negotiation and full-/half-duplex support\
-> **CAN bus**
-> -Multi-master communication: any node can initiate transmission.
-> -Built-in message arbitration and error detection.
-> -Maximum node count depends on the transceivers and network configuration.
-> -On-board 120 Ω termination resistor.
+> **CAN bus:**\
+> -Multi-master communication: any node can initiate transmission\
+> -Built-in message arbitration and error detection\
+> -Maximum node count depends on the transceivers and network configuration\
+> -On-board 120 Ω termination resistor\
 > -Dedicated PESD1CAN TVS protection against ESD and voltage transients, 23kV IEC 61000-4-2\
-> 
-> 
+> **RS485:**\
+> -Master/slave operation depends on the communication protocol implemented in firmware\
+> -Differential communication interface supporting multiple devices on a shared bus\
+> -Maximum node count depends on transceiver loading and protocol limitations\
+> -On-board 120 Ω termination resistor\
+> -Dedicated PESD1CAN TVS protection against ESD and voltage transients, 23kV IEC 61000-4-2\
 
 
 
