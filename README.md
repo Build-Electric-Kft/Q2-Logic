@@ -20,83 +20,84 @@ Model and Library Documentation
 ---
 
 <details>
-<summary><strong><ins>Q²-Logic</ins></strong>
-- Click for a detailed description.</summary>
+<summary><strong><ins>Q²-Logic</ins></strong> — Click for a detailed description.</summary>
 
-###
-> **Core:** ESP32-S3\
-> **Board size:** 102x86mm\
-> **Input voltage:** 12-24VDC\
-> -Minimum: 10V\
-> -Absolute maximum: 30V\
-> -Reverse voltage protected\
-> -DC/DC converter IC ESD rating: 2 kV HBM (component level)\
-> **Input current:** 800mA\
-> **5V output maximum current: 1A**\
-> **6 isolated digital inputs:**\
-> -Input voltage between COM and each input: 10–24 VDC\
-> **4 relay output:**\
-> -Maximum load current: 5A 250VAC | 1A 30VDC\
-> **4 N-type MOSFET output:**\
-> -Maximum load current: 5A/CH or 15A(all chanel)\
-> -Maximum voltage: 30VDC\
-> -PWM frequency: 1,2kHz\
-> -Maximum temperature at full load: 70 °C\
-> **Ethernet:**\
-> -W5500 chip\
-> -10/100 Mbps Ethernet with auto-negotiation and full-/half-duplex support\
-> **CAN bus:**\
-> -Multi-master communication: any node can initiate transmission\
-> -Built-in message arbitration and error detection\
-> -Maximum node count depends on the transceivers and network configuration\
-> -On-board 120 Ω termination resistor\
-> -Dedicated TVS protection against ESD and voltage transients, 23kV IEC 61000-4-2\
-> **RS485:**\
-> -Master/slave operation depends on the communication protocol implemented in firmware\
-> -Differential communication interface supporting multiple devices on a shared bus\
-> -Maximum node count depends on transceiver loading and protocol limitations\
-> -On-board 120 Ω termination resistor\
-> -Dedicated TVS protection against ESD and voltage transients, 23kV IEC 61000-4-2\
-> **I²C:**
-> -5V logic level\
-> -Supporting Standard-mode (100 kHz) and Fast-mode (400 kHz)\
-> -On-board EEPROM at address `0x00`\
-> -ESD rating: 5 kV HBM (component level)
+### General specifications
 
+- **Microcontroller:** ESP32-S3
+- **Board dimensions:** 102 × 86 mm
 
+### Power supply
 
-![Q²-Logic Mini](images/3D_Q2-Logic_PCB.png)
+- **Nominal input voltage:** 12–24V DC
+- **Minimum input voltage:** 10V DC
+- **Absolute maximum input voltage:** 30V DC
+- **Reverse-polarity protection**
+- **Input current:** 800mA
+- **5 V output:** maximum current 1A
+- **DC/DC converter IC ESD rating:** 2kV HBM (component level)
 
+### Digital inputs
+
+- **6 isolated digital inputs**
+- **Input voltage between COM and each input:** 10–24V DC
+
+### Relay outputs
+
+- **4 relay outputs**
+- **Maximum switching current:**
+  - 5A at 250V AC
+  - 1A at 30V DC
+
+### MOSFET outputs
+
+- **4 N-channel MOSFET outputs**
+- **Maximum load current:** 5A per channel, with a combined limit of 15A across all four channels
+- **Maximum voltage:** 30V DC
+- **PWM frequency:** 1.2kHz
+- **Maximum temperature at full load:** 70°C
+
+### Ethernet
+
+- **Controller:** W5500
+- **Link speed:** 10/100Mbps
+- **Full- and half-duplex support**
+- **Auto-negotiation**
+
+### CAN bus
+
+- Multi-master communication: any node can initiate transmission
+- Built-in message arbitration and error detection
+- Maximum node count depends on the transceivers and network configuration
+- On-board 120Ω termination resistor
+- Dedicated PESD1CAN TVS protection against ESD and voltage transients
+
+### RS485
+
+- Differential communication supporting multiple devices on a shared bus
+- Master/slave operation depends on the protocol implemented in firmware
+- Maximum node count depends on transceiver loading and protocol limitations
+- On-board 120Ω termination resistor
+- Dedicated PESD1CAN TVS protection against ESD and voltage transients
+
+> [!NOTE]
+> The PESD1CAN protection diodes are rated for 23kV contact discharge under IEC 61000-4-2. This is a component rating, not a verified ESD immunity rating for the complete board.
+>
+> Bus termination should be fitted at the two physical ends of each bus.
+
+### I²C
+
+- **Logic level:** 5V
+- **Bus speed:** 100kHz Standard-mode / 400kHz Fast-mode
+- **On-board EEPROM:** AT24C08C, 8 Kbit (1 KB)
+- **7-bit I²C addresses:** `0x50`–`0x53`
+- **Level translator IC ESD rating:** 5kV HBM (component level)
+
+### Board preview
+
+![Q²-Logic](images/3D_Q2-Logic_PCB.png)
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ---
 
