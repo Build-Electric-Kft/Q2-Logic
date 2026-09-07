@@ -1,5 +1,5 @@
 # Q²-Logic
-Model and Library Documentation
+Q²-Logic (Q2-Logic) is a family of ESP32-based programmable controllers developed by Build Electric Kft. This repository provides hardware specifications, Arduino board package installation instructions, and library documentation for Q²-Logic and Q²-Logic Mini.
 
 ## Models:
 | | <ins>Q²-Logic</ins> | <ins>Q²-Logic Mini</ins> |
