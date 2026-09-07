@@ -8,7 +8,7 @@ Model and Library Documentation
 | **Input** | *6* | *6* | 
 | **Relay output** | *4* | *2* |
 | **MOSFET output** | *4* | *4* |
-| **Interface** | *USB-C, Wifi, CAN, RS485, I²C* | *USB-C, Wifi* |
+| **Interface** | *USB-C, Wifi, Ethernet, CAN, RS485, I²C* | *USB-C, Wifi* |
 > [!NOTE]
 > Relay: *5A/ch | 250VAC*\
 > MOSFET: *5A/ch, or max:15A (all chanel) | 30VDC*
@@ -35,11 +35,22 @@ Model and Library Documentation
 > **6 isolated digital inputs**\
 > -Input voltage between COM and each input: 10–24 VDC\
 > **4 relay output**\
-> -Maximum load current: 5A 250VAC | 1A 30VDC
+> -Maximum load current: 5A 250VAC | 1A 30VDC\
 > **4 N-type MOSFET output**\
 > -Maximum load current: 5A/CH or 15A(all chanel)\
 > -Maximum voltage: 30VDC\
 > -PWM frequency: 1,2kHz\
+> -Maximum temperature at full load: 70 °C\
+> **Ethernet**\
+> -W5500 chip\
+> -10/100 Mbps Ethernet with auto-negotiation and full-/half-duplex support\
+> **CAN bus**
+> -Multi-master communication: any node can initiate transmission.
+> -Built-in message arbitration and error detection.
+> -Maximum node count depends on the transceivers and network configuration.
+> -On-board 120 Ω termination resistor.
+> -Dedicated PESD1CAN TVS protection against ESD and voltage transients, 23kV IEC 61000-4-2\
+> 
 > 
 
 
