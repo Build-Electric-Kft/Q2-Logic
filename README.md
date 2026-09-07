@@ -8,7 +8,7 @@ Model and Library Documentation
 | **Input** | *6* | *6* | 
 | **Relay output** | *4* | *2* |
 | **MOSFET output** | *4* | *4* |
-| **Interface** | *Wifi, CAN, RS485, I²C* | *Wifi* |
+| **Interface** | *USB-C, Wifi, CAN, RS485, I²C* | *USB-C, Wifi* |
 > [!NOTE]
 > Relay: *5A/ch | 250VAC*\
 > MOSFET: *5A/ch, or max:15A (all chanel) | 30VDC*
@@ -24,6 +24,7 @@ Model and Library Documentation
 - Click for a detailed description.</summary>
 
 ###
+> **Core:** ESP32-S3\
 > **Board size:** 102x86mm\
 > **Input voltage:** 12-24VDC\
 > -Minimum: 10V\
@@ -36,8 +37,10 @@ Model and Library Documentation
 > **4 relay output**\
 > -Maximum load current: 5A 250VAC | 1A 30VDC
 > **4 N-type MOSFET output**\
-> -Maximum load current: 5A/CH or 15A(all chanel)
-> -Maximum voltage: 30VDC
+> -Maximum load current: 5A/CH or 15A(all chanel)\
+> -Maximum voltage: 30VDC\
+> -PWM frequency: 1,2kHz\
+> 
 
 
 
