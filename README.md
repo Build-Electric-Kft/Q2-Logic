@@ -20,22 +20,61 @@ Model and Library Documentation
 ---
 
 <details>
-<summary><strong>Q²-Logic</strong>
+<summary><strong><ins>Q²-Logic</ins></strong>
 - Click for a detailed description.</summary>
+
+###
+> **Board size:** 102x86mm\
+> **Input voltage:** 12-24VDC\
+> -Minimum: 10V\
+> -Absolute maximum: 35V\
+> -Reverse voltage protected\
+> -DC/DC converter IC ESD rating: 2 kV HBM (component level)\
+> **Input current:** 800mA\
+> **
+
+
+
+
+
 
 ![Q²-Logic Mini](images/3D_Q2-Logic_PCB.png)
 
 
-
-
-
-
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
 <details>
-<summary><strong>Q²-Logic Mini</strong>
+<summary><strong><ins>Q²-Logic Mini</ins></strong>
 - Click for a detailed description.</summary>
 
 </details>
