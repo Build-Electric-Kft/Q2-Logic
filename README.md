@@ -127,7 +127,4 @@ The Q²-Logic library is included in the board package and does not need to be i
 
 The Q²-Logic API is now available in your sketch without an additional `#include`.
 
-> A new pulse replaces the previous pulse timer on the same output.
-> When a pulse ends, it switches to the opposite state; it does not restore the previous PWM setting.
-
 
