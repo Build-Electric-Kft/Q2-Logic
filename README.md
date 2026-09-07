@@ -35,7 +35,24 @@ Model and Library Documentation
 
 ---
 
-## Code
+## Library install
+
+The Q²-Logic library is included in the board package and does not need to be installed separately.
+
+1. Open **Arduino IDE**.
+2. Go to **File → Preferences** and add the following URL to **Additional Boards Manager URLs**:
+
+   ```text
+   https://raw.githubusercontent.com/Build-Electric-Kft/Q2-Logic/main/package_q2_logic_index.json
+   ```
+
+3. Open **Tools → Board → Boards Manager**.
+4. Search for **esp32** and install **esp32 by Espressif Systems**.
+5. Search for **Q²-Logic Boards** and install the package.
+6. Select **Tools → Board → Q²-Logic**.
+7. Select the connected controller under **Tools → Port**.
+
+The Q²-Logic API is now available in your sketch without an additional `#include`.
 
 
 ### <ins>Q²-Logic Mini</ins>
