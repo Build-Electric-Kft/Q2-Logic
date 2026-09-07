@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">RJ45 pinout — CAN and RS485</title>
+  <desc id="desc">Connector orientation and numbering follow the supplied schematic. Pins from left to right: 1 RS485_B, 2 RS485_A, 3 GND, 4 CAN_H, 5 CAN_L, 6 GND, 7 RS485_A, 8 RS485_B.</desc>
+  <rect width="1200" height="760" fill="white"/>
+  <g fill="black" font-family="Arial, Helvetica, sans-serif">
+    <text x="64" y="82" font-size="40" font-weight="700">RJ45 PINOUT</text>
+    <text x="64" y="121" font-size="20" letter-spacing="2">CAN / RS485</text>
+    <path d="M64 152H1136" fill="none" stroke="black" stroke-width="2"/>
+    <text x="64" y="202" font-size="15" font-weight="700" letter-spacing="1.5">CONNECTOR VIEW</text>
+    <text x="760" y="202" font-size="15" font-weight="700" letter-spacing="1.5">PIN ASSIGNMENT</text>
+  </g>
+  <g fill="white" stroke="black" stroke-width="4" stroke-linejoin="round">
+    <rect x="68" y="238" width="620" height="364" rx="16"/>
+    <path d="M110 282H646V484H552V524H468V564H288V524H204V484H110Z"/>
+    <rect x="89" y="338" width="10" height="64"/>
+    <rect x="657" y="338" width="10" height="64"/>
+  </g>
+  <g fill="black">
+    <rect x="140" y="282" width="14" height="78" rx="2"/>
+    <rect x="206" y="282" width="14" height="78" rx="2"/>
+    <rect x="272" y="282" width="14" height="78" rx="2"/>
+    <rect x="338" y="282" width="14" height="78" rx="2"/>
+    <rect x="404" y="282" width="14" height="78" rx="2"/>
+    <rect x="470" y="282" width="14" height="78" rx="2"/>
+    <rect x="536" y="282" width="14" height="78" rx="2"/>
+    <rect x="602" y="282" width="14" height="78" rx="2"/>
+  </g>
+  <g fill="black" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" text-anchor="middle">
+    <text x="147" y="399">1</text><text x="213" y="399">2</text>
+    <text x="279" y="399">3</text><text x="345" y="399">4</text>
+    <text x="411" y="399">5</text><text x="477" y="399">6</text>
+    <text x="543" y="399">7</text><text x="609" y="399">8</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black">
+    <text x="378" y="638" font-size="17" text-anchor="middle">Orientation matches the supplied schematic</text>
+    <rect x="760" y="238" width="376" height="44" fill="black"/>
+    <g fill="white" font-size="15" font-weight="700" letter-spacing="1">
+      <text x="788" y="266">PIN</text><text x="882" y="266">FUNCTION</text>
+    </g>
+    <g fill="none" stroke="black" stroke-width="1">
+      <path d="M760 282V666H1136V282 M852 282V666 M760 330H1136 M760 378H1136 M760 426H1136 M760 474H1136 M760 522H1136 M760 570H1136 M760 618H1136"/>
+    </g>
+    <g font-size="23" text-anchor="middle" font-weight="700">
+      <text x="806" y="314">1</text><text x="806" y="362">2</text>
+      <text x="806" y="410">3</text><text x="806" y="458">4</text>
+      <text x="806" y="506">5</text><text x="806" y="554">6</text>
+      <text x="806" y="602">7</text><text x="806" y="650">8</text>
+    </g>
+    <g font-family="Consolas, 'Courier New', monospace" font-size="23">
+      <text x="882" y="314">RS485_B</text><text x="882" y="362">RS485_A</text>
+      <text x="882" y="410">GND</text><text x="882" y="458">CAN_H</text>
+      <text x="882" y="506">CAN_L</text><text x="882" y="554">GND</text>
+      <text x="882" y="602">RS485_A</text><text x="882" y="650">RS485_B</text>
+    </g>
+    <path d="M64 700H1136" fill="none" stroke="black" stroke-width="2"/>
+    <text x="64" y="730" font-size="15">Q²-Logic</text>
+    <text x="1136" y="730" text-anchor="end" font-size="15">Custom CAN / RS485 connector</text>
+  </g>
+</svg>
