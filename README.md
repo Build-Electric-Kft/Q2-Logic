@@ -27,11 +27,17 @@ Model and Library Documentation
 > **Board size:** 102x86mm\
 > **Input voltage:** 12-24VDC\
 > -Minimum: 10V\
-> -Absolute maximum: 35V\
+> -Absolute maximum: 30V\
 > -Reverse voltage protected\
 > -DC/DC converter IC ESD rating: 2 kV HBM (component level)\
 > **Input current:** 800mA\
-> **
+> **6 isolated digital inputs**\
+> -Input voltage between COM and each input: 10–24 VDC\
+> **4 relay output**\
+> -Maximum load current: 5A 250VAC | 1A 30VDC
+> **4 N-type MOSFET output**\
+> -Maximum load current: 5A/CH or 15A(all chanel)
+> -Maximum voltage: 30VDC
 
 
 
