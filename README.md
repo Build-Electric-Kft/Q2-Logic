@@ -34,7 +34,7 @@ Model and Library Documentation
 - **Absolute maximum input voltage:** 30V DC
 - **Reverse-polarity protection**
 - **Input current:** 800mA
-- **5 V output:** maximum current 1A
+- **5V output:** maximum current 1A
 - **DC/DC converter IC ESD rating:** 2kV HBM (component level)
 
 ### Digital inputs
@@ -89,7 +89,7 @@ Model and Library Documentation
 
 - **Logic level:** 5V
 - **Bus speed:** 100kHz Standard-mode / 400kHz Fast-mode
-- **On-board EEPROM:** AT24C08C, 8 Kbit (1 KB) 7-bit I²C addresses: `0x50`–`0x53`
+- **On-board EEPROM:** AT24C08C, 8Kbit (1KB) 7-bit I²C addresses: `0x50`–`0x53`
 - **Level translator IC ESD rating:** 5kV HBM (component level)
 
 ### Board preview
