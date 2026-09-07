@@ -54,6 +54,74 @@ The Q²-Logic library is included in the board package and does not need to be i
 
 The Q²-Logic API is now available in your sketch without an additional `#include`.
 
+## Library functions
+
+Call `System.start()` in `setup()` before using the inputs and outputs.
+
+### System
+
+- **`System.start()`**  
+  Initializes the inputs, switches all outputs off, and starts serial communication at 115200 baud.
+
+- **`System.start(timeout_ms)`**  
+  Performs initialization and enables the task watchdog when `timeout_ms` is at least 100 milliseconds.
+
+- **`System.wdt_rst()`**  
+  Feeds the watchdog. Call it regularly when the watchdog is enabled.
+
+- **`System.restart()`**  
+  Restarts the controller.
+
+- **`System._isStarted()`**  
+  Returns whether initialization has completed. Intended for internal library use.
+
+### Inputs
+
+Available on `I1` through `I6`. Examples below use `I1`.
+
+- **`I1.read()`**  
+  Returns the current input state: `1` when active, `0` when inactive. No debounce delay.
+
+- **`I1.read(NO)`**  
+  Reads the input using normal logic, comparing two samples taken 50 ms apart. If they differ, returns the last accepted state.
+
+- **`I1.read(NC)`**  
+  Uses the same filtering as `read(NO)`, but returns the inverted state.
+
+> [!NOTE]
+> `read(NO)` and `read(NC)` each block program execution for approximately 50 ms.
+
+### Outputs
+
+Available on `Q1` through `Q6`. Examples below use `Q1`, except for PWM.
+
+- **`Q1.on()`**  
+  Switches the output fully on and cancels any active pulse timer.
+
+- **`Q1.off()`**  
+  Switches the output off and cancels any active pulse timer.
+
+- **`Q1.onPulse(duration_ms)`**  
+  Switches the output on, then off after the specified duration. Does not block program execution.
+
+- **`Q1.offPulse(duration_ms)`**  
+  Switches the output off, then fully on after the specified duration. Does not block program execution.
+
+- **`Q3.pwm(value)`**  
+  Sets the PWM duty cycle from `0` (off) to `255` (fully on), at 1200 Hz. Cancels any active pulse timer.
+
+- **`Q1.read()`**  
+  Returns the stored output setting: `0` for off, `255` for fully on, or the PWM value. This is not physical output feedback.
+
+> [!IMPORTANT]
+> On the Mini, PWM is available on MOSFET outputs `Q3`–`Q6`.
+> For relay outputs `Q1` and `Q2`, `pwm(0)` switches off and any nonzero value switches fully on.
+
+> [!NOTE]
+> Pulse durations are specified in milliseconds. A duration of `0` has no effect.
+> A new pulse replaces the previous pulse timer on the same output.
+> When a pulse ends, it switches to the opposite state; it does not restore the previous PWM setting.
+
 
 ### <ins>Q²-Logic Mini</ins>
 - **6 bemenet**
