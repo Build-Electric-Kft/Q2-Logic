@@ -145,8 +145,74 @@ Q²-Logic (Q2-Logic) is a family of ESP32-based programmable controllers develop
 ---
 
 <details>
-<summary><strong><ins>Q²-Logic Mini</ins></strong>
-- Click for a detailed description.</summary>
+<summary><strong><ins>Q²-Logic Mini</ins></strong>- Click for a detailed description.</summary>
+
+###
+  
+<details>
+<summary><strong><ins>Board preview</ins></strong> — Click for a PCB</summary>
+
+  ![Q²-Logic](images/3D_Q2-Logic_PCB.png)
+  
+</details>
+
+# Q²-Logic Mini
+
+### <ins>General specifications</ins>
+
+- **Microcontroller:** ESP32-C3
+- **Board dimensions:** 50 × 86 mm
+
+### <ins>Power supply</ins>
+
+- **Nominal input voltage:** 12–24V DC
+- **Minimum input voltage:** 10V DC
+- **Absolute maximum input voltage:** 30V DC
+- **Reverse-polarity protection**
+- **Input current:** 800mA
+- **DC/DC converter IC ESD rating:** 2kV HBM (component level)
+
+### <ins>Digital inputs</ins>
+
+- **6 isolated digital inputs**
+- **Input voltage between COM and each input:** 10–24V DC
+
+### <ins>Relay outputs</ins>
+
+- **2 relay outputs**
+- **Maximum switching current:**
+  - 5A at 250V AC
+  - 1A at 30V DC
+
+### <ins>MOSFET outputs</ins>
+
+- **4 N-channel MOSFET outputs**
+- **Maximum load current:** 5A per channel, with a combined limit of 15A across all four channels
+- **Maximum voltage:** 30V DC
+- **PWM frequency:** 1.2kHz
+- **Maximum temperature at full load:** 70°C
+
+### <ins>ESP32-S3 IO definition</ins>
+| **IO** | **Name** | **Description** | | **IO** | **Name** | **Description** |
+| --- | --- | --- | --- |--- | --- | --- |
+| GPIO0 | IO0 | Boot / GPIO | | GPIO18 | SEND/REC | RS485 direction |
+| GPIO1 | I6_pin | Input 6 | | GPIO19 | SDA | I²C data |
+| GPIO2 | I5_pin | Input 5 | | GPIO20 | I2C_OE | I²C translator enable |
+| GPIO3 | WRST | W5500 reset | | GPIO21 | Q1_pin | Output 1 |
+| GPIO4 | CAN_LED | CAN status LED | | GPIO35 | Q8_pin | Output 8 |
+| GPIO5 | RS485_LED | RS485 status LED | | GPIO36 | Q6_pin | Output 6 |
+| GPIO6 | I2C_LED | I²C status LED | | GPIO37 | Q5_pin | Output 5 |
+| GPIO7 | CAN_RX | CAN receive | | GPIO38 | Q7_pin | Output 7 |
+| GPIO8 | SCL | I²C clock | | GPIO39 | I1_pin | Input 1 |
+| GPIO9 | SCLK | W5500 SPI clock | | GPIO40 | I2_pin | Input 2 |
+| GPIO10 | MOSI | W5500 SPI data out | | GPIO41 | I3_pin | Input 3 |
+| GPIO11 | SCSN | W5500 chip select | | GPIO42 | I4_pin | Input 4 |
+| GPIO12 | — | Not connected | | GPIO43 | TX | UART0 transmit |
+| GPIO13 | — | Not connected | | GPIO44 | RX | UART0 receive |
+| GPIO14 | — | Not connected | | GPIO45 | Q4_pin | Output 4 |
+| GPIO15 | CAN_TX | CAN transmit | | GPIO46 | MISO | W5500 SPI data in |
+| GPIO16 | RS485_TX | RS485 transmit | | GPIO47 | Q2_pin | Output 2 |
+| GPIO17 | RS485_RX | RS485 receive | | GPIO48 | Q3_pin | Output 3 |
 
 </details>
 
