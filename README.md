@@ -22,7 +22,7 @@ Q²-Logic (Q2-Logic) is a family of ESP32-based programmable controllers develop
 ---
 
 <details>
-<summary><strong><ins>Q²Logic</ins></strong> — Click for a detailed description.</summary>
+<summary><strong><ins>Q²-Logic</ins></strong> — Click for a detailed description.</summary>
 
 ###
   
@@ -147,7 +147,7 @@ Q²-Logic (Q2-Logic) is a family of ESP32-based programmable controllers develop
 ---
 
 <details>
-<summary><strong><ins>Q²-Logic Mini</ins></strong>- Click for a detailed description.</summary>
+<summary><strong><ins>Q²-Logic Mini</ins></strong> — Click for a detailed description.</summary>
 
 ###
   
