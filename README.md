@@ -108,24 +108,24 @@ Q²-Logic (Q2-Logic) is a family of ESP32-based programmable controllers develop
 ### <ins>ESP32-S3 IO definition</ins>
 | **IO** | **Name** | **Description** | | **IO** | **Name** | **Description** |
 | --- | --- | --- | --- |--- | --- | --- |
-| GPIO0 | IO0 | Boot / GPIO | | GPIO18 | SEND/REC | RS485 direction |
-| GPIO1 | I6_pin | Input 6 | | GPIO19 | SDA | I²C data |
-| GPIO2 | I5_pin | Input 5 | | GPIO20 | I2C_OE | I²C translator enable |
-| GPIO3 | WRST | W5500 reset | | GPIO21 | Q1_pin | Output 1 |
-| GPIO4 | CAN_LED | CAN status LED | | GPIO35 | Q8_pin | Output 8 |
-| GPIO5 | RS485_LED | RS485 status LED | | GPIO36 | Q6_pin | Output 6 |
-| GPIO6 | I2C_LED | I²C status LED | | GPIO37 | Q5_pin | Output 5 |
-| GPIO7 | CAN_RX | CAN receive | | GPIO38 | Q7_pin | Output 7 |
-| GPIO8 | SCL | I²C clock | | GPIO39 | I1_pin | Input 1 |
-| GPIO9 | SCLK | W5500 SPI clock | | GPIO40 | I2_pin | Input 2 |
-| GPIO10 | MOSI | W5500 SPI data out | | GPIO41 | I3_pin | Input 3 |
-| GPIO11 | SCSN | W5500 chip select | | GPIO42 | I4_pin | Input 4 |
+| GPIO0 | IO0 | Boot | | GPIO18 | RS485_DIR_pin | RS485 direction |
+| GPIO1 | I6_pin | Input 6 | | GPIO19 | I2C_SDA_pin | I²C data |
+| GPIO2 | I5_pin | Input 5 | | GPIO20 | I2C_OE_pin | I²C translator enable |
+| GPIO3 | ETH_RST_pin | W5500 reset | | GPIO21 | Q1_pin | Output 1 |
+| GPIO4 | CAN_LED_pin | CAN status LED | | GPIO35 | Q8_pin | Output 8 |
+| GPIO5 | RS485_LED_pin | RS485 status LED | | GPIO36 | Q6_pin | Output 6 |
+| GPIO6 | I2C_LED_pin | I²C status LED | | GPIO37 | Q5_pin | Output 5 |
+| GPIO7 | CAN_RX_pin | CAN receive | | GPIO38 | Q7_pin | Output 7 |
+| GPIO8 | I2C_SCL_pin | I²C clock | | GPIO39 | I1_pin | Input 1 |
+| GPIO9 | ETH_SCL_pin | W5500 SPI clock | | GPIO40 | I2_pin | Input 2 |
+| GPIO10 | ETH_MOSI_pin | W5500 SPI data out | | GPIO41 | I3_pin | Input 3 |
+| GPIO11 | ETH_CS_pin | W5500 chip select | | GPIO42 | I4_pin | Input 4 |
 | GPIO12 | — | Not connected | | GPIO43 | TX | UART0 transmit |
 | GPIO13 | — | Not connected | | GPIO44 | RX | UART0 receive |
 | GPIO14 | — | Not connected | | GPIO45 | Q4_pin | Output 4 |
-| GPIO15 | CAN_TX | CAN transmit | | GPIO46 | MISO | W5500 SPI data in |
-| GPIO16 | RS485_TX | RS485 transmit | | GPIO47 | Q2_pin | Output 2 |
-| GPIO17 | RS485_RX | RS485 receive | | GPIO48 | Q3_pin | Output 3 |
+| GPIO15 | CAN_TX_pin | CAN transmit | | GPIO46 | ETH_MISO_pin | W5500 SPI data in |
+| GPIO16 | RS485_TX_pin | RS485 transmit | | GPIO47 | Q2_pin | Output 2 |
+| GPIO17 | RS485_RX_pin | RS485 receive | | GPIO48 | Q3_pin | Output 3 |
 
 ### <ins>RJ45 - CAN/RS485 pinout</ins>
 <details>
@@ -178,6 +178,8 @@ Q²-Logic (Q2-Logic) is a family of ESP32-based programmable controllers develop
 
 - **6 isolated digital inputs**
 - **Input voltage between COM and each input:** 10–24V DC
+  
+> I5 and I6 must not be active during upload!
 
 ### <ins>Relay outputs</ins>
 
