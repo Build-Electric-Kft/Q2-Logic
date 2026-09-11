@@ -6,15 +6,13 @@ Q²-Logic (Q2-Logic) is a family of ESP32-based programmable controllers develop
 | :--- | :---: | :---: |
 | **Supply voltage** | 12-24VDC | 12-24VDC |
 | **Input** | 6 | 6 | 
-| **Relay output** | 4 | 2 |
-| **MOSFET output** | 4 | 4 |
+| **Relay output** | 4 *(5A)* | 2 *(5A)* |
+| **MOSFET output** | 4 *(10A)* | 4 *(8A)* |
 | **Program upload** | USB-C | USB-C |
 | **Interface** | Wifi, Ethernet, CAN, RS485, I²C | Wifi |
 | **Core** | ESP32-S3-N16 | ESP32-C3-N4 |
 > [!NOTE]
-> Relay: *5A/ch | 250VAC*\
-> MOSFET: *5A/ch, or max:15A (all chanel) | 30VDC*
->> Maximum temperature at full load: 70 °C
+> Maximum temperature at full MOSFET load: 70 °C
 
 > [!WARNING]
 > Do not exceed the maximum rated current, as this may damage the controller!
