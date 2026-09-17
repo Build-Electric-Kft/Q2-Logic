@@ -171,7 +171,7 @@ Q²-Logic (Q2-Logic) is a family of ESP32-based programmable controllers develop
 - **Minimum input voltage:** 10V DC
 - **Absolute maximum input voltage:** 30V DC
 - **Reverse-polarity protection**
-- **Input current:** 800mA
+- **Input current:** 200mA
 - **DC/DC converter IC ESD rating:** 2kV HBM (component level)
 
 ### <ins>Digital inputs</ins>
