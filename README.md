@@ -5,9 +5,11 @@ Q²-Logic (Q2-Logic) is a family of ESP32-based programmable controllers develop
 | | <ins>Q²-Logic</ins> | <ins>Q²-Logic Mini</ins> |
 | :--- | :---: | :---: |
 | **Supply voltage** | 12-24VDC | 12-24VDC |
-| **Input** | 6 | 6 | 
-| **Relay output** | 4 *(5A)* | 2 *(5A)* |
-| **MOSFET output** | 4 *(10A)* | 4 *(8A)* |
+| **Digital input** | 6 | 6 | 
+| **Relay output** | 4 | 2 |
+| **Relay current** | 5A /ch | 5A /ch |
+| **MOSFET output** | 4 | 4 |
+| **MOSFET current** | 10A /ch | 6A /ch |
 | **Program upload** | USB-C | USB-C |
 | **Interface** | Wifi, Ethernet, CAN, RS485, I²C | Wifi |
 | **Core** | ESP32-S3-N16 | ESP32-C3-N4 |
