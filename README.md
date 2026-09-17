@@ -46,7 +46,7 @@ Q²-Logic (Q2-Logic) is a family of ESP32-based programmable controllers develop
 - **Minimum input voltage:** 10V DC
 - **Absolute maximum input voltage:** 30V DC
 - **Reverse-polarity protection**
-- **Input current:** 800mA
+- **Input current:** 200mA
 - **5V output:** maximum current 1A
 - **DC/DC converter IC ESD rating:** 2kV HBM (component level)
 
@@ -65,7 +65,7 @@ Q²-Logic (Q2-Logic) is a family of ESP32-based programmable controllers develop
 ### <ins>MOSFET outputs</ins>
 
 - **4 N-channel MOSFET outputs**
-- **Maximum load current:** 5A per channel, with a combined limit of 15A across all four channels
+- **Maximum load current:** 10A per channel, with a combined limit of 15A across all four channels
 - **Maximum voltage:** 30V DC
 - **PWM frequency:** 1.2kHz
 - **Maximum temperature at full load:** 70°C
@@ -191,7 +191,7 @@ Q²-Logic (Q2-Logic) is a family of ESP32-based programmable controllers develop
 ### <ins>MOSFET outputs</ins>
 
 - **4 N-channel MOSFET outputs**
-- **Maximum load current:** 5A per channel, with a combined limit of 15A across all four channels
+- **Maximum load current:** 6A per channel, with a combined limit of 15A across all four channels
 - **Maximum voltage:** 30V DC
 - **PWM frequency:** 1.2kHz
 - **Maximum temperature at full load:** 70°C
