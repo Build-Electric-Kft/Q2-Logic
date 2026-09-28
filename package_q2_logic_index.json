@@ -9,6 +9,28 @@
         {
           "name": "Q²-Logic Boards",
           "architecture": "esp32",
+          "version": "1.1.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/Build-Electric-Kft/Q2-Logic"
+          },
+          "url": "https://github.com/Build-Electric-Kft/Q2-Logic/releases/download/1.1.0/Q2-Logic-1.1.0.zip",
+          "archiveFileName": "Q2-Logic-1.1.0.zip",
+          "checksum": "SHA-256:1687d660b4152060bc199050efec71b1ffa3e9e1e99bfe5842ad65ef6a3aa3ea",
+          "size": "2123762",
+          "boards": [
+            {
+              "name": "Q²-Logic"
+            },
+            {
+              "name": "Q²-Logic Mini"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "Q²-Logic Boards",
+          "architecture": "esp32",
           "version": "1.0.0",
           "category": "Contributed",
           "help": {
